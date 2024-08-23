@@ -9,5 +9,5 @@ This is a project about a Pharmacy Management System created by:
 
 We created this one for Our EAD II Coursework and We use,
 
-* **Javalin For Back-End Co-Operation
-* **ReactJS For Front-End Co-Operation
+* Javalin For Back-End Co-Operation
+* ReactJS For Front-End Co-Operation
