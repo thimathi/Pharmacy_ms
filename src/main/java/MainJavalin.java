@@ -10,10 +10,10 @@ public class MainJavalin {
         }).start(7070);
 
         app.post("/login", userService::login);
-        app.post("/createUser", userService::createUser);
-        app.post("/updateUser", userService::updateUser);
-        app.post("/deleteUser", userService::deleteUser);
-        app.post("/getUsers", userService::getUsers);
+        app.put("/createUser", userService::createUser);
+        app.patch("/updateUser", userService::updateUser);
+        app.delete("/deleteUser", userService::deleteUser);
+        app.get("/getUsers", userService::getUsers);
         app.post("/getUserById", userService::getUserById);
     }
 }

@@ -121,6 +121,8 @@ public class UserService {
             } catch (Exception e) {
                 ctx.status(400).json("Bad Request" + e.getMessage());
             }
+        }else{
+            ctx.status(400).json("Bad Request");
         }
     }
 
@@ -161,6 +163,8 @@ public class UserService {
             } catch (Exception e) {
                 ctx.status(400).json("Bad Request" + e.getMessage());
             }
+        }else{
+            ctx.status(400).json("Bad Request");
         }
     }
 
@@ -210,6 +214,8 @@ public class UserService {
             } catch (Exception e) {
                 ctx.status(400).json("Bad Request");
             }
+        }else{
+            ctx.status(400).json("Bad Request");
         }
     }
 
@@ -244,6 +250,8 @@ public class UserService {
             } catch (Exception e) {
                 ctx.status(400).json("Bad Request");
             }
+        }else{
+            ctx.status(400).json("Bad Request");
         }
     }
 
